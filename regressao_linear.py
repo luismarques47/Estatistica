@@ -53,8 +53,8 @@ plt.plot(
     linestyle=':'
 )
 
-plt.text(dados['coluna 2'].mean(), dados['coluna 2'].mean(), "O modelo é: Y = {:.5} + {:.5}X".format(reg.intercept_[0], reg.coef_[0][0]), fontsize=20)
-plt.text(dados['coluna 2'].mean(), dados['coluna 2'].mean()-1, "A correlação ao quadrado =  {:.5}".format(correlacao_quad), fontsize=20)
+plt.text(dados['coluna 2'].mean(), dados['coluna 3'].mean(), "O modelo é: Y = {:.5} + {:.5}X".format(reg.intercept_[0], reg.coef_[0][0]), fontsize=20)
+plt.text(dados['coluna 2'].mean(), dados['coluna 3'].mean()-1, "A correlação ao quadrado =  {:.5}".format(correlacao_quad), fontsize=20)
 plt.show()
 
 
